@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'shop/style.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>E-commerce Site</h1>
+    </div>
+    <div class="container">
+        <h1>Welcome to the E-commerce Site</h1>
+        <nav>
+            <ul>
+                <li><a href="/api/categories/">Categories</a></li>
+                <li><a href="/api/products/">Products</a></li>
+                <li><a href="/api/customers/">Customers</a></li>
+                <li><a href="/api/orders/">Orders</a></li>
+                <li><a href="/api/order-items/">Order Items</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer">
+        <div class="social-links">
+            <a href="https://t.me/e-commerce.ir" target="_blank">Telegram</a><br>
+            <a href="https://wa.me/qr/e-commerce.ir" target="_blank">WhatsApp</a>
+        <p>&copy; 2024 E-commerce Site. All rights reserved.</p>
+       
+        </div>
+    </div>
+</body>
+</html>
